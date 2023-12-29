@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Starter Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 20px;
+        }
+        th, td {
+          border: 1px solid #FFBF00;
+          padding: 8px;
+          text-align: center;
+          color:#FFBF00;
+          font-size: medium;
+        }
+        th {
+          background-color:Gray;
+        }
+      </style>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#"  class="pull-left">
+                    <img id="logo-img" src="logoo.png"  alt="logo-image"></img>
+                </a>
+                <div class="navbar-brand">
+                    <a href="index.html"><h1>ABC FITNESS</h1></a>
+                  </div>
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>    
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li class="visible-xs active">
+                <a href="index.html">Home</a>
+              </li>
+             <li>
+               <a href="membership.html">
+                 <br class="hidden-xs">Membership</a>
+             </li>
+             <li>
+               <a href="classes.html">
+                <br class="hidden-xs">Classes</a>
+             </li>
+             <li>
+               <a href="location.html">
+                 <br class="hidden-xs">Location</a>
+             </li>
+             
+           </ul>
+         </div>
+        </div>
+    </nav>
+</header>
+  
+
+<div id="main-content" class="container">
+    <table>
+        <tr>
+          <th colspan="3">Personal Training</th>
+        </tr>
+        <tr>
+          <td>30 Minutes Blast</td>
+          <td colspan="2">$15</td>
+        </tr>
+        <tr>
+            <td>Rehab</td>
+            <td colspan="2">$15</td>
+          </tr>
+          <tr>
+            <td>Circuit Training</td>
+            <td colspan="2">$15</td>
+          </tr>
+          <tr>
+            <td>Sport Conditioning</td>
+            <td colspan="2">$15</td>
+          </tr>
+          <tr>
+            <td>Hill Climbing</td>
+            <td colspan="2">$15</td>
+          </tr>
+          <tr>
+            <th colspan="3">Membership Fee</th>
+          </tr>
+          <tr>
+            <td>3 Months</td>
+            <td colspan="2">$200</td>
+          </tr>
+          <tr>
+            <td>6 Months</td>
+            <td colspan="2">$400</td>
+          </tr>
+          <tr>
+            <td>12 Months</td>
+            <td colspan="2">$800</td>
+          </tr>
+          <tr>
+            <th colspan="3">Other</th>
+          </tr>
+          <tr>
+            <td>Steam</td>
+            <td colspan="2">$20/session (30 min)</td>
+          </tr>
+          <tr>
+            <td>Jacuzzi</td>
+            <td colspan="2">$24/session (35 min)</td>
+          </tr>
+          <tr>
+            <td>Massage</td>
+            <td colspan="2">$40/session (45 min)</td>
+          </tr>
+      </table>
+
+</div>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
